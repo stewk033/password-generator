@@ -1,5 +1,22 @@
 // Assignment code here
 
+// Function to determine length of password
+function getLength() {
+
+  var entry = '';
+  
+  entry = prompt("How long will your password be?");
+  entry = parseInt(entry);
+
+  if (entry >= 8 && entry <= 128) {
+      return entry;
+
+  } else {
+      window.alert("Try again. Please enter a number between 8 and 128");
+      return getLength();
+  }
+}
+
 // Password parameters defined
 function generatePassword() {
 
