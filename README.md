@@ -37,4 +37,4 @@ Provided with a mock-up and starter code from which to frame my program.
 Live URL: (https://stewk033.github.io/password-generator/)
 
 Code:
-*[JS](https://github.com/stewk033/password-generator/blob/main/assets/script.js)
+[JS] (https://github.com/stewk033/password-generator/blob/main/assets/script.js)
