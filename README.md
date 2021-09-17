@@ -24,4 +24,17 @@ SO THAT I can create a strong password that provides greater security
 * _WHEN the password is generated_
 * _THEN the password is either displayed in an alert or written to the page_
 
-### Screenshot
+## Credits
+
+Provided with a mock-up and starter code from which to frame my program.
+
+![MOCKUP]()
+
+![SCREENSHOT]()
+
+## My Solution
+
+Live URL: ()
+
+Code:
+*[JS]()
