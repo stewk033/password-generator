@@ -3,7 +3,7 @@
 // Function to determine length of password
 function getLength() {
 
-  var entry = '';
+  var entry = "";
   
   entry = prompt("How long will your password be?");
   entry = parseInt(entry);
@@ -14,6 +14,25 @@ function getLength() {
   } else {
       window.alert("Try again. Please enter a number between 8 and 128");
       return getLength();
+  }
+}
+
+// User makes choices
+function gatherChoices() {
+
+  var answers = {
+      lowercase:  confirm("Would you like to use lowercase letters?"),
+      uppercase:  confirm("How about uppercase letters?"),
+      numbers:    confirm("Numbers?"),
+      specialChar:confirm("Maybe some special characters?")
+  };
+
+  if (answers.lowercase || answers.uppercase || answers.numbers || answers.specialChar) {
+      return answers;
+
+  } else {
+      window.alert("You shall not pass! Please make at least one character selection.");
+      return gatherChoices();
   }
 }
 
@@ -28,7 +47,7 @@ function generatePassword() {
       uppercase:   ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"],
       lowercase:   ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"],
       numbers:     ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0"],
-      specialChar: ["!", "@", "#", "$", "%", "^", "&", "*", "?", "+", "-", "="]
+      specialChar: ["!", "@", "#", "$", "%", "^", "&", "*", "?", "+", "-", "="],
   };
 
   var passwordChars = [];
