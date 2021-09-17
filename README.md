@@ -28,13 +28,13 @@ SO THAT I can create a strong password that provides greater security
 
 Provided with a mock-up and starter code from which to frame my program.
 
-![MOCKUP]()
+![MOCKUP](https://github.com/stewk033/password-generator/blob/main/assets/images/pg-mockup.png)
 
-![SCREENSHOT]()
+![SCREENSHOT](https://github.com/stewk033/password-generator/blob/main/assets/images/pg-screenshot.png)
 
 ## My Solution
 
-Live URL: ()
+Live URL: (https://stewk033.github.io/password-generator/)
 
 Code:
-*[JS]()
+*[JS](https://github.com/stewk033/password-generator/blob/main/assets/script.js)
